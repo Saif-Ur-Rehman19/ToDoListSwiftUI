@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A6A5E2C2C41304600B908CA /* TLDButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6A5E2B2C41304600B908CA /* TLDButton.swift */; };
+		7A6A5E2E2C413F9B00B908CA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6A5E2D2C413F9B00B908CA /* Extensions.swift */; };
+		7A9FD6572C400F1800834A8C /* RegistrationViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9FD6562C400F1800834A8C /* RegistrationViewViewModel.swift */; };
+		7A9FD6592C401BA900834A8C /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9FD6582C401BA900834A8C /* HeaderView.swift */; };
 		7AC773632C3F03ED00225B3D /* toDoListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC773622C3F03ED00225B3D /* toDoListApp.swift */; };
 		7AC773652C3F03ED00225B3D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC773642C3F03ED00225B3D /* MainView.swift */; };
 		7AC773672C3F03EF00225B3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AC773662C3F03EF00225B3D /* Assets.xcassets */; };
@@ -32,6 +36,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7A6A5E2B2C41304600B908CA /* TLDButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLDButton.swift; sourceTree = "<group>"; };
+		7A6A5E2D2C413F9B00B908CA /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		7A9FD6562C400F1800834A8C /* RegistrationViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewViewModel.swift; sourceTree = "<group>"; };
+		7A9FD6582C401BA900834A8C /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		7AC7735F2C3F03ED00225B3D /* toDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = toDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AC773622C3F03ED00225B3D /* toDoListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toDoListApp.swift; sourceTree = "<group>"; };
 		7AC773642C3F03ED00225B3D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -114,6 +122,8 @@
 				7AC773832C3F0B8F00225B3D /* ToDoListView.swift */,
 				7AC773852C3F0BB900225B3D /* LoginView.swift */,
 				7AC773872C3F0BCA00225B3D /* RegistrationView.swift */,
+				7A9FD6582C401BA900834A8C /* HeaderView.swift */,
+				7A6A5E2B2C41304600B908CA /* TLDButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -127,6 +137,7 @@
 				7AC773932C3F0D4300225B3D /* NewItemViewViewModel.swift */,
 				7AC773952C3F0D5600225B3D /* LoginViewViewModel.swift */,
 				7AC773972C3F0DD600225B3D /* ToDolistItemViewViewModel.swift */,
+				7A9FD6562C400F1800834A8C /* RegistrationViewViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -146,6 +157,7 @@
 				7AC773662C3F03EF00225B3D /* Assets.xcassets */,
 				7AC773622C3F03ED00225B3D /* toDoListApp.swift */,
 				7AC773772C3F070300225B3D /* GoogleService-Info.plist */,
+				7A6A5E2D2C413F9B00B908CA /* Extensions.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -230,9 +242,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				7AC773842C3F0B8F00225B3D /* ToDoListView.swift in Sources */,
+				7A9FD6592C401BA900834A8C /* HeaderView.swift in Sources */,
 				7AC773862C3F0BB900225B3D /* LoginView.swift in Sources */,
 				7AC773982C3F0DD600225B3D /* ToDolistItemViewViewModel.swift in Sources */,
+				7A6A5E2C2C41304600B908CA /* TLDButton.swift in Sources */,
 				7AC7738E2C3F0CE900225B3D /* MainViewViewModel.swift in Sources */,
+				7A9FD6572C400F1800834A8C /* RegistrationViewViewModel.swift in Sources */,
 				7AC773652C3F03ED00225B3D /* MainView.swift in Sources */,
 				7AC773802C3F0ADD00225B3D /* ToDoListItemView.swift in Sources */,
 				7AC773902C3F0D0100225B3D /* ProfileViewViewModel.swift in Sources */,
@@ -241,6 +256,7 @@
 				7AC773632C3F03ED00225B3D /* toDoListApp.swift in Sources */,
 				7AC773922C3F0D1A00225B3D /* ToDoListViewViewModel.swift in Sources */,
 				7AC773962C3F0D5600225B3D /* LoginViewViewModel.swift in Sources */,
+				7A6A5E2E2C413F9B00B908CA /* Extensions.swift in Sources */,
 				7AC773822C3F0AFB00225B3D /* NewItemView.swift in Sources */,
 				7AC7738C2C3F0C5600225B3D /* ToDoListItem.swift in Sources */,
 				7AC773882C3F0BCA00225B3D /* RegistrationView.swift in Sources */,
