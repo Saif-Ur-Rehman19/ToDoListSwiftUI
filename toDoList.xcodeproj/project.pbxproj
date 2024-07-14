@@ -33,6 +33,7 @@
 		7AC773942C3F0D4300225B3D /* NewItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC773932C3F0D4300225B3D /* NewItemViewViewModel.swift */; };
 		7AC773962C3F0D5600225B3D /* LoginViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC773952C3F0D5600225B3D /* LoginViewViewModel.swift */; };
 		7AC773982C3F0DD600225B3D /* ToDolistItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC773972C3F0DD600225B3D /* ToDolistItemViewViewModel.swift */; };
+		7AECBBD42C43E14F001B1BC7 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AECBBD32C43E14F001B1BC7 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		7AC773932C3F0D4300225B3D /* NewItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemViewViewModel.swift; sourceTree = "<group>"; };
 		7AC773952C3F0D5600225B3D /* LoginViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewViewModel.swift; sourceTree = "<group>"; };
 		7AC773972C3F0DD600225B3D /* ToDolistItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDolistItemViewViewModel.swift; sourceTree = "<group>"; };
+		7AECBBD32C43E14F001B1BC7 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +160,7 @@
 				7AC773622C3F03ED00225B3D /* toDoListApp.swift */,
 				7AC773772C3F070300225B3D /* GoogleService-Info.plist */,
 				7A6A5E2D2C413F9B00B908CA /* Extensions.swift */,
+				7AECBBD32C43E14F001B1BC7 /* Launch Screen.storyboard */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 			files = (
 				7AC7736A2C3F03EF00225B3D /* Preview Assets.xcassets in Resources */,
 				7AC773672C3F03EF00225B3D /* Assets.xcassets in Resources */,
+				7AECBBD42C43E14F001B1BC7 /* Launch Screen.storyboard in Resources */,
 				7AC773782C3F070300225B3D /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
